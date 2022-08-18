@@ -5,9 +5,9 @@ public class Dino implements Attacker{
     public int health;
     public int attackPower;
 
-    public Dino(String name, int health, int attackPower) {
+    public Dino(String name, int attackPower) {
         this.name = name;
-        this.health = health;
+        this.health = 100;
         this.attackPower = attackPower;
     }
 

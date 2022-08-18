@@ -12,7 +12,7 @@ public class Robot implements Attacker{
     }
 
     @Override
-    public void Attack() {
+    public void Attack(Attacker target) {
 
     }
 }
