@@ -1,6 +1,6 @@
 package org.example;
 
-public class Robot {
+public class Robot implements Attacker{
     public String name;
     public int health;
     public Weapon weapon;
@@ -9,5 +9,10 @@ public class Robot {
         this.name = name;
         this.health = health;
         this.weapon = weapon;
+    }
+
+    @Override
+    public void Attack() {
+
     }
 }

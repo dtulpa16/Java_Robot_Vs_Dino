@@ -2,12 +2,12 @@ package org.example;
 
 import java.util.Scanner;
 
-public class Weapon {
+public abstract class Weapon {
     public String name;
     public int attackPower;
 
-    public Weapon() {
-        Scanner sc = new Scanner(System.in);
-        
+    public Weapon(String name, int attackPower) {
+        this.name = name;
+        this.attackPower = attackPower;
     }
 }
